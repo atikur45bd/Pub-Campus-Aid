@@ -1,0 +1,289 @@
+{
+    "batches": [
+      {
+        "batch": "19th batch",
+        "semester": "1st semester",
+        "subjects": [
+          {
+            "subject_name": "Cloud Computing",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Explain the concept of cloud computing.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Data Communication",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is data communication? Discuss its types.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Operating Systems",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Define process scheduling in operating systems.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Software Engineering",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What are the phases of software development?",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Computer Networks",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is TCP/IP? Explain its working.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "batch": "20th batch",
+        "semester": "1st semester",
+        "subjects": [
+          {
+            "subject_name": "Cloud Computing",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Explain the concept of cloud computing.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Data Communication",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is data communication? Discuss its types.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Operating Systems",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Define process scheduling in operating systems.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Software Engineering",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What are the phases of software development?",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Computer Networks",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is TCP/IP? Explain its working.",
+                  "image_url": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "batch": "19th batch",
+        "semester": "2nd semester",
+        "subjects": [
+          {
+            "subject_name": "Cloud Computing",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Explain the concept of cloud computing.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Data Communication",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is data communication? Discuss its types.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Operating Systems",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Define process scheduling in operating systems.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Software Engineering",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What are the phases of software development?",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Computer Networks",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is TCP/IP? Explain its working.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "batch": "20th batch",
+        "semester": "2nd semester",
+        "subjects": [
+          {
+            "subject_name": "Cloud Computing",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Explain the concept of cloud computing.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Data Communication",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is data communication? Discuss its types.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Operating Systems",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "Define process scheduling in operating systems.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Software Engineering",
+            "exam": {
+              "type": "final",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What are the phases of software development?",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          },
+          {
+            "subject_name": "Computer Networks",
+            "exam": {
+              "type": "mid",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is TCP/IP? Explain its working.",
+                  "image_url": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

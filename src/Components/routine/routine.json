@@ -1,0 +1,93 @@
+[
+    {
+        "day": "Friday",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Art",
+                "room": "109"
+            },
+            {
+                "batch": "23 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Physical Education",
+                "room": "210"
+            }
+        ]
+    },
+    {
+        "day": "Saturday",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Economics",
+                "room": "111"
+            },
+            {
+                "batch": "23 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Sociology",
+                "room": "212"
+            }
+        ]
+    },
+    {
+        "day": "Sunday",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Literature",
+                "room": "113"
+            },
+            {
+                "batch": "23 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Music",
+                "room": "214"
+            }
+        ]
+    },
+    {
+        "day": "Monday",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Mathematics",
+                "room": "101"
+            },
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Physics",
+                "room": "102"
+            },
+            {
+                "batch": "23 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Computer Science",
+                "room": "201"
+            }
+        ]
+    },
+    {
+        "day": "Tuesday",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "Chemistry",
+                "room": "103"
+            },
+            {
+                "batch": "23 B",
+                "time": "9:00 AM - 5:00 PM",
+                "course": "English",
+                "room": "204"
+            }
+        ]
+    }
+]

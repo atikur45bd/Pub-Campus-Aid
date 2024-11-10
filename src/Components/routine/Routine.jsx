@@ -1,34 +1,41 @@
 import React, { useState, useEffect } from 'react';
-import routineData from './routine.json'; // Adjust the path to your JSON file
 
+// Import your JSON data here
+import routineData from './routine.json'; 
 const Routine = () => {
     const [currentTime, setCurrentTime] = useState(new Date());
-    const [selectedBatch, setSelectedBatch] = useState('25 B'); // Default batch
+    const [selectedBatch, setSelectedBatch] = useState('25 B'); 
+    const [currentClass, setCurrentClass] = useState(null);
 
     // Update current time every minute to keep the schedule in real-time
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentTime(new Date());
-        }, 60000); // Update every minute
+        }, 60000); 
 
         return () => clearInterval(interval);
     }, []);
 
-    // Get current day and time
+    // Get current day and time in the proper format
     const currentDay = currentTime.toLocaleDateString('en-US', { weekday: 'long' });
-    const currentDate = currentTime.toLocaleDateString('en-US'); // Current date
+    const currentDate = currentTime.toLocaleDateString();
     const currentHour = currentTime.getHours();
     const currentMinute = currentTime.getMinutes();
     const formattedTime = `${currentHour}:${currentMinute < 10 ? '0' : ''}${currentMinute}`;
 
-    // Find the schedule for the current day and filter by batch
     const todaySchedule = routineData.find(daySchedule => daySchedule.day === currentDay);
-    const currentClass = todaySchedule
-        ? todaySchedule.schedules.find(schedule =>
-            schedule.batch === selectedBatch &&
-            isTimeWithinRange(formattedTime, schedule.time)
-        )
-        : null;
+
+    useEffect(() => {
+        if (todaySchedule) {
+            const currentClassDetails = todaySchedule.schedules.find(schedule => {
+                return (
+                    schedule.batch === selectedBatch &&
+                    isTimeWithinRange(formattedTime, schedule.time)
+                );
+            });
+            setCurrentClass(currentClassDetails); // Update the currentClass state
+        }
+    }, [selectedBatch, formattedTime, todaySchedule]);
 
     // Helper function to check if current time is within a schedule's time range
     function isTimeWithinRange(current, scheduleTime) {
@@ -47,8 +54,21 @@ const Routine = () => {
     }
 
     return (
-        <div>
+        <div className="px-10 flex flex-col justify-center items-center">
             <h2 className="text-xl font-bold mb-4">Current Class Routine</h2>
+
+            {/* Display the current time and current day with the current date */}
+            <div className="text-lg font-semibold mb-4">
+                <div className='flex gap-4'>
+                    <p> {currentDay}</p>
+                    <p>{currentDate}</p>
+
+                </div>
+
+                <p> Time: {currentTime.toLocaleTimeString()}</p>
+            </div>
+
+            {/* Batch selection */}
             <div className="mb-4">
                 <label htmlFor="batch" className="mr-2">Select Batch:</label>
                 <select
@@ -57,25 +77,24 @@ const Routine = () => {
                     onChange={e => setSelectedBatch(e.target.value)}
                     className="border p-1"
                 >
-                    {/* Add more options as needed */}
                     <option value="25 B">25 B</option>
                     <option value="23 B">23 B</option>
-                    <option value="20 B">20 B</option>
                 </select>
             </div>
 
-            {currentClass ? (
-                <div className="p-4 border bg-green-100">
-                    <h3 className="text-lg font-semibold">Current Class</h3>
-                    <p><strong>Date:</strong> {todaySchedule.date}</p> {/* Display the date */}
-                    <p><strong>Time:</strong> {currentClass.time}</p>
-                    <p><strong>Batch:</strong> {currentClass.batch}</p>
-                    <p><strong>Course:</strong> {currentClass.course}</p>
-                    <p><strong>Room:</strong> {currentClass.room}</p>
-                </div>
-            ) : (
-                <p className="text-red-500">No class is currently happening for the selected batch.</p>
-            )}
+            {/* Display current class details */}
+            <div>
+                <h3 className="text-lg font-semibold">Batch: {selectedBatch}</h3>
+                {currentClass ? (
+                    <div className="p-4 border bg-green-100">
+                        <p><strong>Time:</strong> {currentClass.time}</p>
+                        <p><strong>Course:</strong> {currentClass.course}</p>
+                        <p><strong>Room:</strong> {currentClass.room}</p>
+                    </div>
+                ) : (
+                    <p className="text-red-500">No class is currently happening for this batch.</p>
+                )}
+            </div>
         </div>
     );
 };

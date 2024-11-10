@@ -20,12 +20,13 @@ const Header = () => {
             <li onClick={closeDropdown}> <NavLink to="/routine">Routine</NavLink></li>
             <li onClick={closeDropdown}> <NavLink to="/questionBank">Question Bank</NavLink></li>
             <li onClick={closeDropdown}> <NavLink to="/resources">Resources</NavLink></li>
+            <li onClick={closeDropdown}> <NavLink to="/upcoming">More</NavLink></li>
         </>
     );
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div
@@ -58,7 +59,7 @@ const Header = () => {
                             </ul>
                         )}
                     </div>
-                    <a className="btn btn-ghost text-xl">Campus Aide</a>
+                    <a className="btn btn-ghost text-3xl"> PUB Campus Aide</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
