@@ -1,4 +1,4 @@
-<h1>Pub Campus Aid</h1>
+<h1>Pub Campus Aide</h1>
 Pub Campus Aid is a comprehensive web platform designed to enhance the university experience for students at Pundra University of Science and Technology. This project was developed as part of a hackathon, co-organized by the Pundra University Programming Club and the BASIS Student Forum PUB chapter.
 
 Project Overview
