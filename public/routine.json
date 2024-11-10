@@ -1,0 +1,44 @@
+[
+    {
+        "day": "Monday",
+        "date": "2024-11-06",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "9:00 AM - 10:30 AM",
+                "course": "Mathematics",
+                "room": "101"
+            },
+            {
+                "batch": "25 B",
+                "time": "11:00 AM - 12:30 PM",
+                "course": "Physics",
+                "room": "102"
+            },
+            {
+                "batch": "23 B",
+                "time": "9:00 AM - 10:30 AM",
+                "course": "Computer Science",
+                "room": "201"
+            }
+        ]
+    },
+    {
+        "day": "Tuesday",
+        "date": "2024-11-07",
+        "schedules": [
+            {
+                "batch": "25 B",
+                "time": "10:00 AM - 11:30 AM",
+                "course": "Chemistry",
+                "room": "103"
+            },
+            {
+                "batch": "23 B",
+                "time": "1:00 PM - 2:30 PM",
+                "course": "English",
+                "room": "204"
+            }
+        ]
+    }
+]
