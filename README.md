@@ -1,4 +1,6 @@
 <h1>Pub Campus Aide</h1>
+
+live link : https://pub-campus-aide.netlify.app/
 Pub Campus Aid is a comprehensive web platform designed to enhance the university experience for students at Pundra University of Science and Technology. This project was developed as part of a hackathon, co-organized by the Pundra University Programming Club and the BASIS Student Forum PUB chapter.
 <h2>Project Overview</h2>
 
@@ -22,3 +24,4 @@ Community-Driven Support: Built with collaboration and ease of use in mind to st
 Frontend: HTML, CSS, JavaScript</br>
 Frameworks/Libraries: Tailwind CSS</br>
 Backend: Node.js (or your chosen backend technology)
+
